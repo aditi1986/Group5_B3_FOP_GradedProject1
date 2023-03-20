@@ -1,9 +1,15 @@
 /**
  * 
  */
-package GroupAssignment;
+package com.groupassignment.main;
+
+import com.groupassignment.department.AdminDepartment;
+import com.groupassignment.department.HrDepartment;
+import com.groupassignment.department.TechDepartment;
 
 /**
+ * This is the main Class 
+ * 
  * @author Aditi
  *
  */
@@ -14,13 +20,15 @@ public class Main {
 		AdminDepartment admindept = new AdminDepartment();
 		HrDepartment hrdept = new HrDepartment();
 		TechDepartment techdept = new TechDepartment();
-
+		
+		// Admin Department
 		System.out.println(admindept.departmentName());
 		System.out.println(admindept.getTodaysWork());
 		System.out.println(admindept.getWorkDeadline());
 		System.out.println(admindept.isTodayaHoliday());
 		System.out.println();
 
+		//HR Department 
 		System.out.println(hrdept.departmentName());
 		System.out.println(hrdept.doActivity());
 		System.out.println(hrdept.getTodaysWork());
@@ -28,6 +36,7 @@ public class Main {
 		System.out.println(hrdept.isTodayaHoliday());
 		System.out.println();
 
+		//Technical Department 
 		System.out.println(techdept.departmentName());
 		System.out.println(techdept.getTodaysWork());
 		System.out.println(techdept.getWorkDeadline());

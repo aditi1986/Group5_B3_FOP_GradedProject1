@@ -1,5 +1,11 @@
-package GroupAssignment;
+package com.groupassignment.department;
 
+/**
+ * This is Tech Department 
+ * 
+ * @author Aditi
+ *
+ */
 public class TechDepartment extends SuperDepartment {
 
 	public String departmentName() {

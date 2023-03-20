@@ -1,6 +1,13 @@
-package GroupAssignment;
+package com.groupassignment.department;
 
+/**
+ * This is the Admin Department 
+ * 
+ * @author Aditi
+ *
+ */
 public class AdminDepartment extends SuperDepartment {
+	
 	public String departmentName() {
 		return "Welcome to Admin Department";
 	}
