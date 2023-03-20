@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Group5_B3_FOP_GradedProject1
+Bundle-SymbolicName: Group5_B3_FOP_GradedProject1
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-10
+Automatic-Module-Name: Group5.B3.FOP.GradedProject1
